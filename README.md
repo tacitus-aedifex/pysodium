@@ -1,14 +1,20 @@
-This is a very simple wrapper around libsodium masquerading as nacl.
+PySodium
+========
 
-[![Build Status](https://travis-ci.org/stef/pysodium.svg?branch=master)](https://travis-ci.org/stef/pysodium)
+This is a very simple wrapper around libsodium that works in both 2.x and 3.x
+python versions.
+
+[![Build Status](https://travis-ci.org/tacitus-aedifex/pysodium.svg?branch=master)](https://travis-ci.org/tacitus-aedifex/pysodium)
+
+Dependencies
+------------
 
 This wrapper requires a pre-installed libsodium from:
 
    https://github.com/jedisct1/libsodium
 
-then it provides access to the following functions:
-
-Constants:
+Constants
+---------
 
 crypto_aead_chacha20poly1305_KEYBYTES, crypto_aead_chacha20poly1305_NONCEBYTES
 crypto_aead_chacha20poly1305_ietf_KEYBYTES, crypto_aead_chacha20poly1305_ietf_NONCEBYTES
@@ -41,6 +47,9 @@ crypto_pwhash_scryptsalsa208sha256_OPSLIMIT_SENSITIVE,
 crypto_pwhash_scryptsalsa208sha256_MEMLIMIT_SENSITIVE,
 crypto_hash_sha256_BYTES
 crypto_hash_sha512_BYTES
+
+Functions
+---------
 
 crypto_scalarmult_curve25519(n, p)
 
