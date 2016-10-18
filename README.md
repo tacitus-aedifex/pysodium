@@ -5,6 +5,7 @@ This is a very simple wrapper around libsodium that works in both 2.x and 3.x
 python versions.
 
 [![Build Status](https://travis-ci.org/tacitus-aedifex/pysodium.svg?branch=master)](https://travis-ci.org/tacitus-aedifex/pysodium)
+[![codecov](https://codecov.io/gh/tacitus-aedifex/pysodium/branch/master/graph/badge.svg)](https://codecov.io/gh/tacitus-aedifex/pysodium)
 
 Dependencies
 ------------
